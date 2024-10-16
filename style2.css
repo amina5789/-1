@@ -1,0 +1,858 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCFCFD;
+    height: 1527px;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: var(--neutral-2);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top: 80px;
+}
+
+:root {
+    --neutral-2: #04B90B;
+    --primary-color: #23262F;
+    --neutral-4: #777E90;
+    --neutral-3: #353945;
+}
+
+.green-color {
+    color: var(--neutral-2);
+}
+
+p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: var(--neutral-4);
+    padding-top: 12px;
+}
+
+.food {
+    border-radius: 8px;
+    padding: 6px;
+    width: 672px;
+    height: 74px;
+    box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+    background: #fff;
+    display: flex;
+    gap: 36px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.green-icon {
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    background: #43cb48;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#korean-food {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.img {
+    width: 33px;
+    height: 33px;
+    padding-left: 15px;
+}
+
+.two-icon {
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.food-two {
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+}
+
+.there-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#thiland-food {
+    font-size: 20px;
+}
+
+
+/* ---------------------------- */
+
+.span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--neutral-3);
+}
+
+.star {
+    width: 136px;
+    height: 24px;
+}
+
+.review {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.botton {
+    align-items: center;
+    display: flex;
+    gap: 69px;
+    padding-top: 12px;
+}
+
+.dolar {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    color: #04B90B;
+    padding-left: 24px;
+    padding-top: 12px;
+}
+
+.now {
+    border-radius: 6px;
+    padding: 8px 16px;
+    width: 117px;
+    height: 40px;
+    background-color: var(--neutral-2);
+    border: none;
+    color: #fff;
+}
+
+.one-kards {
+    width: 340px;
+    height: 481px;
+    background-color: #fff;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+    padding-top: 80px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    width: 340px;
+    height: 284px;
+}
+
+.font {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    color: #23262F;
+    padding-left: 24px;
+}
+
+.star-icom {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* ------------------------------------------------------------ */
+
+@media (max-width:1318px) {
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 283px;
+        height: 200px;
+    }
+    .one-kards {
+        width: 300px;
+        height: 340px;
+        background-color: #fff;
+    }
+    .now {
+        font-size: 10px;
+    }
+    .botton {
+        align-items: center;
+        display: flex;
+        gap: 44px;
+        padding-top: 12px;
+    }
+    .dolar {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1118px) {
+    .one-kards {
+        width: 264px;
+        height: 365px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 264px;
+        height: 180px;
+    }
+    .now {
+        font-size: 7px;
+        width: 80px;
+    }
+    .dolar {
+        font-size: 20px;
+    }
+    .now {
+        width: 117px;
+        height: 36px;
+    }
+}
+
+@media (max-width:1170px) {
+    .one-kards {
+        width: 264px;
+        height: 365px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 264px;
+        height: 180px;
+    }
+    section {
+        display: flex;
+        gap: 30px;
+    }
+    .dolar {
+        font-size: 15px;
+        font-size: 15px;
+    }
+    .now {
+        width: 117px;
+        height: 36px;
+    }
+}
+
+@media (max-width:928px) {
+    section {
+        display: flex;
+        gap: 15px;
+    }
+    .dolar {
+        font-size: 15px;
+    }
+    .now {
+        width: 117px;
+        height: 36px;
+    }
+}
+
+@media (max-width:872px) {
+    .one-kards {
+        width: 234px;
+        height: 335px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 234px;
+        height: 150px;
+    }
+    section {
+        display: flex;
+        gap: 15px;
+    }
+    .dolar {
+        font-size: 15px;
+        font-size: 15px;
+    }
+    .star-icom {
+        width: 16px;
+        height: 16px;
+    }
+    .now {
+        width: 117px;
+        height: 36px;
+    }
+    .span {
+        font-size: 10px;
+    }
+    .review {
+        display: flex;
+        gap: 6px;
+    }
+    .font {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:780px) {
+    .one-kards {
+        width: 200px;
+        height: 300px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 200px;
+        height: 120px;
+    }
+    section {
+        display: flex;
+        gap: 15px;
+    }
+    .dolar {
+        font-size: 15px;
+        font-size: 15px;
+    }
+    .span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--neutral-3);
+    }
+    .star {
+        width: 136px;
+        height: 24px;
+    }
+    .review {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: nowrap;
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+    .now {
+        width: 117px;
+        height: 36px;
+    }
+    .span {
+        font-size: 10px;
+    }
+    .review {
+        display: flex;
+        gap: 5px;
+    }
+    .star {
+        width: 100px;
+        height: 24px;
+    }
+    .font {
+        font-size: 24px;
+    }
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 500px;
+        height: 54px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #korean-food {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    .img {
+        width: 24px;
+        height: 24px;
+        padding-left: 15px;
+    }
+    .two-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .food-two {
+        border-radius: 8px;
+        width: 196px;
+        height: 52px;
+    }
+    .there-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 150px;
+        height: 40px;
+    }
+    #thiland-food {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:689px) {
+    .one-kards {
+        width: 170px;
+        height: 270px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 170px;
+        height: 90px;
+    }
+    .font {
+        font-size: 24px;
+    }
+    section {
+        display: flex;
+        gap: 15px;
+        padding-top: 50px;
+    }
+    .star {
+        width: 90px;
+        height: 14px;
+    }
+    .star-icom {
+        width: 12px;
+        height: 12px;
+    }
+    .span {
+        font-size: 8px;
+    }
+    .review {
+        display: flex;
+        gap: 3px;
+    }
+    .now {
+        font-size: 4px;
+        width: 100;
+        height: 30px;
+    }
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 570px;
+        height: 64px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 500px;
+        height: 54px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #korean-food {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    .img {
+        width: 24px;
+        height: 24px;
+        padding-left: 15px;
+    }
+    .two-icon {
+        border-radius: 8px;
+        width: 196px;
+        height: 52px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .food-two {
+        border-radius: 8px;
+        width: 196px;
+        height: 52px;
+    }
+    .there-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #thiland-food {
+        font-size: 10px;
+    }
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 500px;
+        height: 54px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #korean-food {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    .img {
+        width: 24px;
+        height: 24px;
+        padding-left: 15px;
+    }
+    .two-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .food-two {
+        border-radius: 8px;
+        width: 196px;
+        height: 52px;
+    }
+    .there-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 150px;
+        height: 40px;
+    }
+    #thiland-food {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:585px) {
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 500px;
+        height: 54px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #korean-food {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    .img {
+        width: 24px;
+        height: 24px;
+        padding-left: 15px;
+    }
+    .two-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .food-two {
+        border-radius: 8px;
+        width: 196px;
+        height: 52px;
+    }
+    .there-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 150px;
+        height: 40px;
+    }
+    #thiland-food {
+        font-size: 12px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .one-kards {
+        width: 140px;
+        height: 240px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 140px;
+        height: 90px;
+    }
+    .star-icom {
+        width: 8px;
+        height: 8px;
+    }
+    .star {
+        width: 70px;
+    }
+    .review {
+        display: flex;
+        gap: 3px;
+    }
+    .dolar {
+        font-size: 14px;
+    }
+    .now {
+        width: 100px;
+        height: 20px;
+        font-size: 3px;
+        text-align: center;
+    }
+}
+
+@media (max-width:521px) {
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 450px;
+        height: 54px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    #korean-food {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    .img {
+        width: 24px;
+        height: 24px;
+        padding-left: 15px;
+    }
+    .two-icon {
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .food-two {
+        border-radius: 8px;
+        width: 196px;
+        height: 52px;
+    }
+    .there-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 150px;
+        height: 40px;
+    }
+    #thiland-food {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:489px) {
+    h1 {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 40px;
+        text-transform: capitalize;
+        color: var(--neutral-2);
+        color: var(--primary-color);
+        text-align: center;
+        padding-top: 80px;
+    }
+}
+
+@media(max-width:477px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .two-icon {
+        display: none;
+    }
+    .there-icon {
+        display: none;
+        display: none;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 440px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .one-kards {
+        width: 280px;
+        height: 380px;
+        background-color: #fff;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        width: 280px;
+        height: 200px;
+    }
+}
+
+@media (max-width:463px) {
+    .food {
+        border-radius: 8px;
+        padding: 6px;
+        width: 370px;
+        height: 54px;
+        box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+        background: #fff;
+        display: flex;
+        gap: 36px;
+    }
+    .green-icon {
+        border-radius: 8px;
+        width: 360px;
+        height: 40px;
+        background: #43cb48;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
